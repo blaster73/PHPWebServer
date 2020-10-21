@@ -1,7 +1,7 @@
 <?php
 
     // Connect to the database
-    $db = new mysqli("fth-media-031", "aeonAdmin", "FalconsAdmin", "aeon_demo");
+    $db = new mysqli("HOST", "USERNAME", "PASSWD", "DBNAME");
     if ($db->connect_errno) {
         printf("Connection failed: %s\n", $mysqli->connect_error);
         exit();
